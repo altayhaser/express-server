@@ -58,7 +58,7 @@ app.delete('/items/:id', (req, res) => {
         return;
     }
 
-    const filteredItems = data.filter((item) => item.id !== id),
+    const filteredItems = data.filter((item) => item.id !== id);
 
 });
   
